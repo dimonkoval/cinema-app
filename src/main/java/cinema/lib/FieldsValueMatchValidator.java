@@ -27,7 +27,8 @@ public class FieldsValueMatchValidator
                 .getPropertyValue(fieldMatch);
         boolean repeatPasswordIsValid = Objects.equals(fieldValue, fieldMatchValue);
         if (!repeatPasswordIsValid) {
-            logger.error("Passwords do not match! User by email = {}", ((UserRequestDto)value).getEmail());
+            logger.error("Passwords do not match! User by email = {}",
+                    ((UserRequestDto)value).getEmail());
         }
         return repeatPasswordIsValid;
     }

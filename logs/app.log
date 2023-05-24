@@ -1,0 +1,5 @@
+"2023-05-24 23:19:26,650 ERROR cinema.lib.FieldsValueMatchValidator:30 Passwords do not match! User by email = Sam@gmail.com
+""2023-05-24 23:19:26,698 INFO cinema.lib.EmailValidator:14 Check email. Params email = Sam@gmail.com
+""2023-05-24 23:58:44,527 ERROR cinema.lib.FieldsValueMatchValidator:30 Passwords do not match! User by email = Sam@gmail.com
+""2023-05-24 23:58:44,595 INFO cinema.lib.EmailValidator:14 Check email. Params email = Sam@gmail.com
+"

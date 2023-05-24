@@ -28,7 +28,7 @@ public class AuthenticationServiceImpl implements AuthenticationService {
 
     @Override
     public User register(String email, String password) {
-        logger.info("register new User by email = {}", email );
+        logger.info("register new User. Params email = {}", email);
         User user = new User();
         user.setEmail(email);
         user.setPassword(password);
